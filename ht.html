@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- <style>
+    #main1 {
+      background-image: url(https://images.unsplash.com/photo-1506104489822-562ca25152fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9);
+      height: 80vh;
+      width: 100%;
+    }
+    #placeholdersoyoucanscroll {
+      height: 100vh;
+    }
+  </style> -->
+
+  <!-- <body id="body">
+    <main>
+      <div id="main1"></div>
+      <div id="placeholdersoyoucanscroll"></div>
+    </main>
+  </body> -->
+
+  <script>
+    // document.getElementById("body").onscroll = function myFunction() {
+      var scrolltotop = document.scrollingElement.scrollTop;
+      var target = document.getElementById("main1");
+      var xvalue = "center";
+      var factor = 0.5;
+      var yvalue = scrolltotop * factor;
+      target.style.backgroundPosition = xvalue + " " + yvalue + "px";
+    };
+  </script>
+</html>

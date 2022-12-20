@@ -9,6 +9,8 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
+import { useEffect } from "react";
+import Footer from "../../components/Footer";
 import CultFamily from "./HomeComponents/CultFamily";
 import Cultpass from "./HomeComponents/Cultpass";
 import FitnessDivs from "./HomeComponents/FitnessDivs";
@@ -20,15 +22,16 @@ import WellnessHub from "./HomeComponents/WellnessHub";
 
 export default function Home() {
   return (
-    <Box bg={"gray.900"} overflowX="hidden">
+    <Box bg={"gray.900"} overflowX="hidden" id="body">
       <LandingVideo />
-      <VStack gap={"100px"}>
+      <VStack gap={"100px"} id="main1">
         <Cultpass />
         <FloatingDivs />
         <FloatingGrids />
         <Passes />
         <FitnessDivs />
         <CultFamily />
+        <Footer />
       </VStack>
     </Box>
   );
