@@ -21,11 +21,13 @@ export default function Navbar({
       justify="space-between"
       zIndex={"1001"}
       fontWeight="bold"
+      h="16"
     >
       <NavLink to={"/"}>
         <Image
           src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_100,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
           alt="LOGO"
+          w="70%"
         />
       </NavLink>
       <HStack>
