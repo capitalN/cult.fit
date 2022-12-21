@@ -21,7 +21,7 @@ export default function LandingVideo() {
           justify="center"
           w="100%"
           h="100%"
-          bgImage={"gradiant.png"}
+          background="linear-gradient(0deg, rgba(23,25,35,1) 10%, rgba(0,0,0,0) 100%)"
           backgroundRepeat="no-repeat"
           backgroundSize="cover"
         >

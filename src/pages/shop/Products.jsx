@@ -28,6 +28,7 @@ export default function Products() {
   const [order, setOrder] = useState("asc");
 
   useEffect(() => {
+    setLoading(true)
     getByCategeory(params, sort, order)
       .then((res) => {
         setLoading(false);
@@ -110,6 +111,7 @@ export default function Products() {
                 </NavLink>
               ))}
             </Grid>
+            <br />
           </Container>
         </>
       )}

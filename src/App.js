@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 
 import AllRoutes from "./pages/AllRoutes";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       <AllRoutes />
+      <Footer />
     </div>
   );
 }

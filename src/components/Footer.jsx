@@ -59,12 +59,16 @@ export default function Footer() {
         </GridItem>
         <VStack alignItems="left">
           {LINKS1.map((el) => (
-            <NavLink to={el.link}>{el.title}</NavLink>
+            <NavLink to={el.link} key={el.title}>
+              {el.title}
+            </NavLink>
           ))}
         </VStack>
         <VStack alignItems="left">
           {LINKS1.map((el) => (
-            <NavLink to={el.link}>{el.title}</NavLink>
+            <NavLink to={el.link+1} key={el.title}>
+              {el.title}
+            </NavLink>
           ))}
         </VStack>
         <VStack alignItems="left">
@@ -78,7 +82,7 @@ export default function Footer() {
           />
           <HStack>
             {SOCIAL.map((el) => (
-              <Image key={el.img} src={el.img}  w="15%"/>
+              <Image key={el.img} src={el.img} w="15%" />
             ))}
           </HStack>
         </VStack>
