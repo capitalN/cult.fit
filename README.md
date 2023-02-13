@@ -1,7 +1,7 @@
 # CULT.FIT
 A Platform for virtual training programs available for your special workouts starting from beginner level to Pro. Also different offline Gym centers available with great pricing to join . Don't just wait there start your journey with wake healthy now.
 
-# ABOUT
+# About
 this is the individal project built by me, i have used HTML, CSS, JavaScript, React, ChakraUI, ReactRedux, ReactRouterDom, AOS animation library.
 
 # Home
