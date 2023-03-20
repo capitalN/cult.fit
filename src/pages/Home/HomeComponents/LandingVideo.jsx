@@ -11,8 +11,11 @@ export default function LandingVideo() {
           autoPlay
           loop
           muted
-          style={{ objectFit: "cover" }}
-          width="100%"
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100vh",
+          }}
         />
         <Stack
           position={"absolute"}

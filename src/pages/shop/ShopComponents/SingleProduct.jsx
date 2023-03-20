@@ -73,6 +73,8 @@ export default function SingleProduct() {
         <Loading />
       ) : (
         <Box>
+          <br />
+          <br />
           <Flex
             direction={{ base: "column", sm: "row" }}
             align={"top"}

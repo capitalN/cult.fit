@@ -47,7 +47,7 @@ export default function Footer() {
         }}
         color={"gray"}
         gap="25px"
-        p="20px"
+        p="30px"
       >
         <GridItem colSpan={2}>
           <Image src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_100,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png" />
