@@ -5,7 +5,7 @@ A Platform for virtual training programs available for your special workouts sta
 this is the individal project built by me, i have used HTML, CSS, JavaScript, React, ChakraUI, ReactRedux, ReactRouterDom, AOS animation library.
 
 # Home
-![Screenshot (356)](https://user-images.githubusercontent.com/107465553/218473778-0ddd8e94-d510-4708-9a5c-c2ab138294fb.png)
+![Screenshot (409)](https://user-images.githubusercontent.com/107465553/226364961-0af7eb3f-3854-4109-b9c4-bcaccf4b9dff.png)
 # Products
 ![Screenshot (357)](https://user-images.githubusercontent.com/107465553/218473804-6ef31170-a17f-408c-9950-7e311b8fb230.png)
 ![Screenshot (360)](https://user-images.githubusercontent.com/107465553/218473857-687a0241-60e5-452e-9750-bb822f41042c.png)
